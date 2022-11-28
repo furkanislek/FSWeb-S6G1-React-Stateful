@@ -24,7 +24,6 @@ const KareIdListesi = ['sqA', 'sqB', 'sqC', 'sqD'];
 
 export default function Kareler() {
 
-  const [kareler, setKareler] = useState(KareIdListesi);
   const [aktifKare, setAktifKare] = useState(null);
   // State hookunu 2 defa kullanın: 'kareler' ve
   // 'aktifKare' olmak üzere. Birisi kare idlerini _dizi_ olarak tutacak, diğeri ise aktif olan
