@@ -69,10 +69,8 @@ export default function RuhHalleri() {
   return (
     <div className="widget-moods container">
       <h2>RuhHalleri</h2>
-      <div id="ruhHali" style={stil}>
-        'Nasıl hissettiğimi bilmiyorum :-|'
-      </div>
-      <div style={{color : ruhHali == mutluRuhHali ? "royalblue" : "crimson"} }>{ruhHali}</div>
+    
+      <div id="ruhHali" style={{color : ruhHali == mutluRuhHali ? "royalblue" : "crimson"} }>{ruhHali}</div>
 
       <div>
         <button id="mutluEt" onClick={mutluEt}>
